@@ -1,6 +1,7 @@
-import React,{forwardedRef} from 'react'
+import React,{forwardRef} from 'react'
 
-const PinInput = forwardedRef(({maxLength,onChangeFunc,backspaceFunc},ref) => {
+const PinInput = forwardRef(
+    ({maxLength,onChangeFunc,backspaceFunc},ref) => {
     const handleKeyUp=(e)=>{
         console.log(e)
     

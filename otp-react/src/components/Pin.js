@@ -46,7 +46,7 @@ const Pin = ({length, maxLength,setPininput}) => {
             }} 
             key={index} 
             maxLength={maxLength} 
-            onChange={(e)=>onChangeHandler(e,index)}
+            onChangeFunc={(e)=>onChangeHandler(e,index)}
             backspaceFunc={(e)=>backspaceHandler(e,index)}
             />
             )
